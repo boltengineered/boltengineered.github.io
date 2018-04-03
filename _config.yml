@@ -3,3 +3,5 @@ title: boltengineered.com
 description: [Engineering to help make things happen]
 show_downloads: false
 google_analytics: [UA-116814778-1]
+plugins:
+  - jemoji
