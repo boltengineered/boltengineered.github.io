@@ -1,0 +1,120 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\usepackage{enumitem}
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Brian Bolt} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{8550 Emerson Ave} % Your address
+\moveleft.5\hoffset\centerline{Los Angeles, CA 90045}
+\moveleft.5\hoffset\centerline{(707) 217-7598}
+\moveleft.5\hoffset\centerline{brian.bolt@boltengineered.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{OBJECTIVE}  
+
+To obtain a career that will allow myself to take full advantage of my passion and experience in software engineering, client solutions and development operations. 
+
+%----------------------------------------------------------------------------------------
+%	Technology SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{TECHNOLOGY \\ SKILLS} 
+\begin{itemize}[leftmargin=*, label={}, noitemsep, labelindent=-5pt,itemindent=-10pt] 
+\item {\sl Operating Systems:} Linux (CentOS/Redhat, Ubuntu, Debian), Windows, Mac OS. 
+\item {\sl Programming Languages:} R, Python, JavaScript, Bash/Shell, Java, VBA, PHP. 
+\item {\sl Operations Technologies:} AWS, Docker, SVN, Git, Github, Bitbucket, npm, JIRA, Knime. 
+\item {\sl Web Technologies:} NodeJS, Javascript, Coffeescript, Bootstrap, Gulp, Webpack, Nginx, Apache, REST, SQL, PostgreSQL, Oracle, Mysql. 
+\item {\sl Other Technologies:} Postman, Webstorm, Eclipse, Atom, Rstudio, RApache, Slack, Hipchat, Wireshark, Fiddler, Sharepoint, Word VBA, Excel VBA. 
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	Informatics SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{ADDITIONAL INFORMATICS \\ SKILLS} 
+\begin{itemize}[leftmargin=*, label={}, noitemsep, labelindent=-5pt,itemindent=-50pt]
+\item ACAS, LabSynch 
+\item Jchem, LiveDesign Seurat for SAR collaboration
+\item Molecular Modeling: Sybyl, Dock, Pymol, Chimera
+\item Molecular Visualization
+\item Molecular Mechanics
+\item Geometry minimization and transition state localization docking 
+\end{itemize} 
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+
+{\sl Scientific Software Engineer} \hfill 2010 - 2018  \\
+John McNeil \& Company, Inc., La Jolla, CA 
+\begin{itemize}
+\item Deployed many instances of ACAS to customers, provided maintenance, backups, custom plug-ins, general support and custom configurations.
+\item Helped write and deploy a dose response curve fitting algorithm using R, that included automatic failing, curve classification and fit strategies (parameter fixing)
+\item Designed the R-based computational web-service infrastructure and libraries for ACAS. Served as team lead for reviewing all contributions to this library.
+\item Wrote code to Extract, Transform and Load (ETL) data from a vendor database to a custom designed table in a customer database for use with a second vendor’s software. This project included spec gathering from two different vendors, as well as specification for complex transformation rules from the customer.
+\item Architected and implemented Docker-based ACAS development workflow that enabled the development team to rapidly setup custom development areas for any client with that client’s custom configuration and software modules. This saved about four hours of setup work each time a developer needed change projects.
+\item Architected and implemented the Docker-based ACAS production deployments. This saved two or more hours for each system upgrade and reduced upgrade error risks.
+\item Migrated compound structure and assay data from various third-party systems including Seurat, CoreLIMS and ActivityBase to ACAS. Wrote and ran the ETL code, and oversaw the validation of migrated data.
+\item Technical lead for the documentation and release of ACAS as GPLv3 open source software. 
+\end{itemize} 
+
+{\sl Informatics Support Scientist} \hfill 2007-2010 \\
+Kalypsys, Inc., San Diego, CA 
+\begin{itemize}
+\item Automated informatics software testing and monitoring processes by using Redstone’s Eggplant scripting language, which reduced the testing procedures from a three person, one week process to a three hour automated process.
+\item Deployed a commercial Structure Activity Relationship query and chemical display tool.
+\item Gathered and negotiated user requirements, worked with the vendor and in-house programmers to integrate the software with our in-house system and database, performed primary end user training, provided documentation and post training support.
+\item Setup and maintained advanced queries. This replaced and enhanced the workflow for reporting and sharing SAR driving assay data, companywide.
+\item Deployed a commercial dose response curve fitting and curation tool that replaced and enhanced the workflow for curve fitting and significantly improved the integrity of the database.
+\item Wrote and deployed an automated screening summary tool.
+\item Project allowed scientists to get a quick and thorough summary of a screening campaign for meetings and comparisons.
+\item Helped write and deploy a curve fitting algorithm and user interface using R and Excel. This project saved the company over 100K in licensing fees.
+\end{itemize} 
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%---------------------------------------------------------------------------------------- 
+
+\section{EDUCATION}
+
+University of California, Santa Barbara, CA, {\sl Bachelor of Science, Biochemistry}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	RELEVANT COURSEWORK SECTION
+%---------------------------------------------------------------------------------------- 
+
+\section{RELEVANT COURSE WORK}
+{\sl Drug Design 1 \& 2} \hfill Professor Kalju Kahn  (kalju@chem.ucsb.edu)
+
+To teach principles that governs the process of modern drug discovery and development. Students in the course follow a path similar to that taken by real-life drug developers by learning important elements of the drug design process in a logical order.
+This course is an overview of the process whereby one identifies and optimizes drugs against a validated biological target (e.g., a protein like HIV protease). The course requires that you have a solid understanding of organic chemistry, particularly physical organic chemistry.
+
+\end{resume}
+\end{document}
