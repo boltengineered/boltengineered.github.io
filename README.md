@@ -1,6 +1,4 @@
 
-[Resume](resume/BrianBoltResume.pdf)
+[Resume][1]
 
-some text and [here is possible to download the file in PDF][1]
-
-[1]:{{ site.url }}/download/file.pdf
+[1]:{{ site.url }}/resume/BrianBoltResume.pdf
