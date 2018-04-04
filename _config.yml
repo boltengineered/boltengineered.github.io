@@ -1,7 +1,5 @@
 theme: jekyll-theme-minimal
-title: boltengineered.com
-description: ["Brian Bolt"]
+title: Brian Bolt
+description: "Scientific Software Engineering"
 show_downloads: false
 google_analytics: [UA-116814778-1]
-plugins:
-  - jemoji
