@@ -1,2 +1,2 @@
 
-[Resume](/resume/BrianBoltResume.pdf)
+[Resume](resume/BrianBoltResume.pdf)
